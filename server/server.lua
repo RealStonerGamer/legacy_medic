@@ -34,7 +34,6 @@ end
 ]]
 
 RegisterServerEvent("legacy_medicalertjobs", function()
-RegisterServerEvent("legacy_medicalertjobs", function()
     local _source = source
     local docs = 0
     local isOnDuty = false
