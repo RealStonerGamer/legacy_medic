@@ -34,10 +34,11 @@ end
 ]]
 
 RegisterServerEvent("legacy_medicalertjobs", function()
+RegisterServerEvent("legacy_medicalertjobs", function()
     local _source = source
     local docs = 0
     local isOnDuty = false
-        
+
     if Config.synsociety then
         for _, job in ipairs(MedicJobs) do
             local jobOnDuty = exports["syn_society"]:GetPlayersOnDuty(job)
@@ -45,7 +46,7 @@ RegisterServerEvent("legacy_medicalertjobs", function()
                 isOnDuty = true
             end
         end
-        end
+    end
         
     if isOnDuty then
         VorpCore.NotifyRightTip(_source, _U("doctoractive"), 20000)
