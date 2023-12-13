@@ -31,7 +31,6 @@ Doctoroffices = {
 
 MedicJobs = {
     "doctor", -- Jobs that count as Doctors
-    "police"
 }
 
 
